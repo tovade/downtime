@@ -29,6 +29,6 @@ defaults:
   # Default timeout
   timeout: 30
   # Default port
-  port: 443
+  port: 25635
   # Default number of ms before considering that host have latency problems
   status_slow_ms: 30000
