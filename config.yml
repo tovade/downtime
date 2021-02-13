@@ -4,19 +4,10 @@
 # All defaults values can be overriden per host basis
 hosts:
   # Example / test root domain
-  - name: google.com
-    title: Google
-  # Example / test url
-  - name: github.com/lowlighter/downtime
-    title: Downtime repository
-  # Example / test ip with port using ncat
-  - name: "8.8.8.8"
-    title: Google DNS
-    port: 53
-    use: ncat
-  # Example / unavailable website
-  - name: unavailable.website.com
-    title: Unavailable website
+  - name: https://node5.nmadsen.dk:25635/
+    title: Andoi
+    name: https://discord.com
+    title: Discord
 
 # Site configuration
 site:
